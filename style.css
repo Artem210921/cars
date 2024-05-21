@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+body {
+    font-family: Be Vietnam Pro;
+    color: white;
+    background-color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul,li {
+    list-style: none;
+}
+
+.nav {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+    margin: 40px 0 0 0;
+}
+
+.nav__main-list {
+    align-items: center;
+    display: flex;
+    gap: 48px;
+}
+
+button {
+    padding: 12px 24px;
+    font-family: Be Vietnam Pro;
+}
+
+.button {
+    margin: 0 0 0 78px;
+    background-color: #EE8313;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #eeac65;
+    transition: .6s all ease;
+}
+
+.banner {
+    margin: 167px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.banner-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-info__text {
+    max-width: 474px;
+    font-size: 17px;
+    letter-spacing: -0.41px;
+    margin: 0 0 48px 0;
+}
+
+h2{
+    margin: 0 0 32px 0;
+    font-weight: 700;
+    font-size: 52px;
+    min-width: 591px;
+    letter-spacing: 0.6%;
+}
+
+.container-banner {
+    align-items: center;
+    display: flex;
+}
+.banner-image {
+    position: relative;
+    right: 150px;
+}
+
+.banner-image::before {
+    z-index: -1;
+    position: absolute;
+    content: '';
+    width: 857px;
+    height: 524px;
+    top: -46px;
+    left: 200px;
+    gap: 0px;
+    opacity: 0px;    
+    background-color: #3434344D;
+}
+
+.banner-info__buttons {
+    display: flex;
+    gap: 35px;
+    margin: 0 0 40px 0;
+}
+
+.banner-button-orange {
+    background-color: #EE8313;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.banner-button-orange:hover {
+    background-color: #eeac65;
+    transition: .6s all ease;
+}
+
+.banner-button-black {
+    background-color: black;
+    color: #EE8313;
+    border: solid 1px #EE8313;
+    cursor: pointer;
+}
+.banner-button-black:hover {
+    background-color: rgb(56, 56, 56);
+    transition: .6s all ease;
+}
+
+.banner-info__about-us {
+    display: flex;
+    gap: 40px;
+}
+
+span {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+
